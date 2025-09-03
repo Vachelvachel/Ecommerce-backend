@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
 @RestController
 @RequestMapping("/product")
 @CrossOrigin
-public class productController {
+public class ProductController {
     @Autowired
     private ProductService productService;
 
@@ -61,7 +61,4 @@ public class productController {
             return ("NO such product!");
         }
     }
-
-
-
 }
